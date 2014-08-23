@@ -1,3 +1,7 @@
+- FORKED the version which allows custom message for each path.
+- I use this instead of MongoError, because it stacks with other errors, giving a single ValidationError with all fields.
+
+
 mongoose-unique-validator
 =========================
 
